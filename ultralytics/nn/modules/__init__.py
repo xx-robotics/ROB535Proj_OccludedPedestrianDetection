@@ -18,6 +18,7 @@ Example:
 """
 
 from .block import (
+    CoordAttention,
     ECA,
     C1,
     C2,
@@ -88,6 +89,7 @@ from .transformer import (
 )
 
 __all__ = (
+    "CoordAttention",
     "ECA",
     "Conv",
     "Conv2",

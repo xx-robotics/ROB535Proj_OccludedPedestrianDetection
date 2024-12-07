@@ -1,4 +1,4 @@
-path: CityPerson # dataset root dir
+path: CUHKOcclusion # dataset root dir
 train: train/images # train images (relative to 'path')
 val: val/images # val images (relative to 'path')
 # test: test/images # test images (optional)
@@ -8,7 +8,7 @@ names:
   0: pedestrian
 
 # 文件夹构成
-# - CityPerson
+# - CUHKOcclusion
 #   - train
 #     - images
 #     - labels
