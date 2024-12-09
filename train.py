@@ -7,7 +7,7 @@ model = YOLO("yolo11n_ECA_CoordA.yaml").load("yolo11n.pt")  # build from YAML an
 
 # Train the model
 results = model.train(data="CUHKOcclusion.yaml", 
-                      epochs=40, 
+                      epochs=200, 
                       imgsz=640,
                       batch=8,
                       optimizer='Adam',
